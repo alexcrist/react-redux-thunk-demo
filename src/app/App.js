@@ -8,7 +8,9 @@ import './styles.css';
 class App extends Component {
   render() {
     return (
-      <div>
+      <div className="main">
+        <h1>React, Redux, and Thunk</h1>
+        <hr/>
         <Inputs click={this.props.fetchItem}/>
         <Display />
       </div>

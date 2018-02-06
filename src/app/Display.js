@@ -3,18 +3,18 @@ import { connect } from 'react-redux';
 
 const Data = ({ number, category, name }) => (
   <div>
-    <div>Number: {number}</div>
-    <div>Category: {category}</div>
-    <div>Name: {name}</div>
+    <h4>Number: {number}</h4>
+    <h4>Category: {category}</h4>
+    <h4>Name: {name}</h4>
   </div>
 );
 
 const Warning = (err) => (
-  <div>Error.</div>
+  <h4>Error.</h4>
 );
 
 const Fetching = () => (
-  <div>Fetching...</div>
+  <h4>Fetching...</h4>
 );
 
 class Display extends Component {
