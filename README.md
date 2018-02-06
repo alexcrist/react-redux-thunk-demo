@@ -4,7 +4,11 @@ This project fetches random Star Wars data from https://swapi.co/. It has a Reac
 
 Created during an Intermediate Redux class taught by [Ryan Marsh](https://github.com/ryanwmarsh).
 
-## Running
+## Live Demo
+
+Runs on a free Heroku dyno: https://react-redux-thunk.herokuapp.com/
+
+## Running Locally
 
 * `npm install`
 * `npm start`
